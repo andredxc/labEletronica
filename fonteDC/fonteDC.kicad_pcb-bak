@@ -170,7 +170,7 @@
   )
 
   (module fonteDC:LED_D8.0mm (layer F.Cu) (tedit 5B245B62) (tstamp 5B245BE6)
-    (at 205.2 80.4 90)
+    (at 215 95 90)
     (descr "LED, diameter 8.0mm, 2 pins, http://cdn-reichelt.de/documents/datenblatt/A500/LED8MMGE_LED8MMGN_LED8MMRT%23KIN.pdf")
     (tags "LED diameter 8.0mm 2 pins")
     (path /5B24611F)
@@ -203,7 +203,7 @@
   )
 
   (module fonteDC:C_Disc_D5.0mm_W2.5mm_P5.00mm (layer F.Cu) (tedit 5B2463D6) (tstamp 5B2466DD)
-    (at 143.6 64.8 90)
+    (at 158.6 67.2 90)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 5mm width 2.5mm Capacitor")
     (path /5B2428F3)
@@ -242,7 +242,7 @@
   )
 
   (module fonteDC:C_Disc_D5.0mm_W2.5mm_P5.00mm (layer F.Cu) (tedit 5B2463D6) (tstamp 5B2466F1)
-    (at 181.2 76 270)
+    (at 200 73.6 270)
     (descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=5*2.5mm^2, Capacitor, http://cdn-reichelt.de/documents/datenblatt/B300/DS_KERKO_TC.pdf")
     (tags "C Disc series Radial pin pitch 5.00mm  diameter 5mm width 2.5mm Capacitor")
     (path /5B245ABB)
@@ -546,7 +546,7 @@
   )
 
   (module fonteDC:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal (layer F.Cu) (tedit 5B24635D) (tstamp 5B24677F)
-    (at 202.2 59.8 270)
+    (at 215 73.6 270)
     (descr "Resistor, Axial_DIN0204 series, Axial, Horizontal, pin pitch=7.62mm, 0.16666666666666666W = 1/6W, length*diameter=3.6*1.6mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
     (tags "Resistor Axial_DIN0204 series Axial Horizontal pin pitch 7.62mm 0.16666666666666666W = 1/6W length 3.6mm diameter 1.6mm")
     (path /5B2460B0)
@@ -584,7 +584,7 @@
   )
 
   (module fonteDC:TO-220-3_Vertical (layer F.Cu) (tedit 5B246431) (tstamp 5B246794)
-    (at 160.8 59.8)
+    (at 175.8 62)
     (descr "TO-220-3, Vertical, RM 2.54mm")
     (tags "TO-220-3 Vertical RM 2.54mm")
     (path /5B24352A)
