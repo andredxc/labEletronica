@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source A:\GitHub\labEletronica\fonteDC\fonteDC.sch)
-    (date "15-Jun-18 10:53:48 PM")
+    (date "16-Jun-18 12:22:03 AM")
     (tool "Eeschema 4.0.7")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -23,11 +23,13 @@
       (tstamp 5B240134))
     (comp (ref T1)
       (value Transformer_1P_SS)
+      (footprint fonteDC:transformer)
       (libsource (lib device) (part Transformer_1P_SS))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B2402CA))
     (comp (ref switch1)
       (value voltage_switch)
+      (footprint fonteDC:swich_110_220)
       (libsource (lib fonteDC) (part voltage_switch))
       (sheetpath (names /) (tstamps /))
       (tstamp 5B240ECB))
