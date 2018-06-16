@@ -407,4 +407,7 @@ Wire Wire Line
 	3850 3250 3850 3550
 Wire Wire Line
 	3850 3550 4000 3550
+Wire Wire Line
+	3750 3700 3750 3650
+Connection ~ 3750 3650
 $EndSCHEMATC
