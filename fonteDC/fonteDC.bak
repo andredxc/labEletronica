@@ -104,7 +104,7 @@ Wire Wire Line
 Wire Wire Line
 	2250 2900 2250 3150
 Wire Wire Line
-	4000 3650 4000 3550
+	4000 3550 4000 5200
 Wire Wire Line
 	3400 3500 3450 3500
 Wire Wire Line
@@ -122,23 +122,23 @@ Wire Wire Line
 $Comp
 L R R1
 U 1 1 5B241B31
-P 5400 3100
-F 0 "R1" V 5480 3100 50  0000 C CNN
-F 1 "R" V 5400 3100 50  0000 C CNN
-F 2 "fonteDC:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5330 3100 50  0001 C CNN
-F 3 "" H 5400 3100 50  0001 C CNN
-	1    5400 3100
+P 3700 4150
+F 0 "R1" V 3780 4150 50  0000 C CNN
+F 1 "R" V 3700 4150 50  0000 C CNN
+F 2 "fonteDC:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 3630 4150 50  0001 C CNN
+F 3 "" H 3700 4150 50  0001 C CNN
+	1    3700 4150
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D5
 U 1 1 5B241BF9
-P 5400 3550
-F 0 "D5" H 5400 3650 50  0000 C CNN
-F 1 "LED" H 5400 3450 50  0000 C CNN
-F 2 "Diodes_THT:D_T-1_P12.70mm_Horizontal" H 5400 3550 50  0001 C CNN
-F 3 "" H 5400 3550 50  0001 C CNN
-	1    5400 3550
+P 3700 4500
+F 0 "D5" H 3700 4600 50  0000 C CNN
+F 1 "LED" H 3700 4400 50  0000 C CNN
+F 2 "Diodes_THT:D_T-1_P12.70mm_Horizontal" H 3700 4500 50  0001 C CNN
+F 3 "" H 3700 4500 50  0001 C CNN
+	1    3700 4500
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
@@ -146,15 +146,11 @@ Wire Wire Line
 Wire Wire Line
 	4800 2750 5950 2750
 Wire Wire Line
-	5400 2750 5400 2950
-Wire Wire Line
 	4800 3550 4800 3950
 Wire Wire Line
 	4800 3950 5950 3950
 Wire Wire Line
-	5400 3950 5400 3700
-Wire Wire Line
-	5400 3250 5400 3400
+	3700 4650 3700 5200
 $Comp
 L D D1
 U 1 1 5B242001
@@ -177,8 +173,6 @@ F 3 "" H 6100 3950 50  0001 C CNN
 	1    6100 3950
 	1    0    0    -1  
 $EndComp
-Connection ~ 5400 2750
-Connection ~ 5400 3950
 $Comp
 L D D3
 U 1 1 5B2424E0
@@ -338,7 +332,7 @@ U 1 1 5B246C1A
 P 10400 3300
 F 0 "J1" H 10400 3400 50  0000 C CNN
 F 1 "Conn_01x02" H 10400 3100 50  0000 C CNN
-F 2 "Connectors:Banana_Jack_2Pin" H 10400 3300 50  0001 C CNN
+F 2 "fonteDC:AC_in" H 10400 3300 50  0001 C CNN
 F 3 "" H 10400 3300 50  0001 C CNN
 	1    10400 3300
 	1    0    0    -1  
@@ -364,4 +358,13 @@ Wire Wire Line
 Wire Wire Line
 	5900 3600 5900 2750
 Connection ~ 5900 2750
+Wire Wire Line
+	3700 4350 3700 4300
+Wire Wire Line
+	3700 3150 3700 4000
+Wire Wire Line
+	3700 5200 4000 5200
+Connection ~ 4000 3650
+Connection ~ 3700 3350
+Connection ~ 3700 3150
 $EndSCHEMATC

@@ -91,70 +91,28 @@ F 3 "" H 1250 3900 50  0001 C CNN
 	1    1250 3900
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	1250 3600 1250 3750
-Wire Wire Line
-	1250 4050 1250 4200
-Wire Wire Line
-	1250 4200 2250 4200
-Wire Wire Line
-	2250 4200 2250 3600
-Wire Wire Line
-	1250 2900 2250 2900
-Wire Wire Line
-	2250 2900 2250 3150
-Wire Wire Line
-	4000 3650 4000 3550
-Wire Wire Line
-	3400 3500 3450 3500
-Wire Wire Line
-	3450 3500 3450 3350
-Wire Wire Line
-	3450 3350 4000 3350
-Wire Wire Line
-	3400 3250 3850 3250
-Wire Wire Line
-	3400 3100 3450 3100
-Wire Wire Line
-	3450 3100 3450 3150
-Wire Wire Line
-	3450 3150 4000 3150
 $Comp
 L R R1
 U 1 1 5B241B31
-P 5400 3100
-F 0 "R1" V 5480 3100 50  0000 C CNN
-F 1 "R" V 5400 3100 50  0000 C CNN
-F 2 "fonteDC:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 5330 3100 50  0001 C CNN
-F 3 "" H 5400 3100 50  0001 C CNN
-	1    5400 3100
+P 1850 3150
+F 0 "R1" V 1930 3150 50  0000 C CNN
+F 1 "R" V 1850 3150 50  0000 C CNN
+F 2 "fonteDC:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" V 1780 3150 50  0001 C CNN
+F 3 "" H 1850 3150 50  0001 C CNN
+	1    1850 3150
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D5
 U 1 1 5B241BF9
-P 5400 3550
-F 0 "D5" H 5400 3650 50  0000 C CNN
-F 1 "LED" H 5400 3450 50  0000 C CNN
-F 2 "Diodes_THT:D_T-1_P12.70mm_Horizontal" H 5400 3550 50  0001 C CNN
-F 3 "" H 5400 3550 50  0001 C CNN
-	1    5400 3550
+P 1850 3500
+F 0 "D5" H 1850 3600 50  0000 C CNN
+F 1 "LED" H 1850 3400 50  0000 C CNN
+F 2 "Diodes_THT:D_T-1_P12.70mm_Horizontal" H 1850 3500 50  0001 C CNN
+F 3 "" H 1850 3500 50  0001 C CNN
+	1    1850 3500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	4800 3150 4800 2750
-Wire Wire Line
-	4800 2750 5950 2750
-Wire Wire Line
-	5400 2750 5400 2950
-Wire Wire Line
-	4800 3550 4800 3950
-Wire Wire Line
-	4800 3950 5950 3950
-Wire Wire Line
-	5400 3950 5400 3700
-Wire Wire Line
-	5400 3250 5400 3400
 $Comp
 L D D1
 U 1 1 5B242001
@@ -177,8 +135,6 @@ F 3 "" H 6100 3950 50  0001 C CNN
 	1    6100 3950
 	1    0    0    -1  
 $EndComp
-Connection ~ 5400 2750
-Connection ~ 5400 3950
 $Comp
 L D D3
 U 1 1 5B2424E0
@@ -201,17 +157,6 @@ F 3 "" H 6450 3600 50  0001 C CNN
 	1    6450 3600
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	5850 3150 6300 3150
-Connection ~ 5850 3950
-Wire Wire Line
-	6250 3950 10200 3950
-Wire Wire Line
-	6250 2750 8000 2750
-Wire Wire Line
-	6600 3150 7350 3150
-Wire Wire Line
-	6600 3600 7350 3600
 $Comp
 L CP1 Ce1
 U 1 1 5B2426C2
@@ -245,24 +190,6 @@ F 3 "" H 8300 2700 50  0001 C CNN
 	1    8300 2750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	7350 2750 7350 3250
-Wire Wire Line
-	7350 3950 7350 3550
-Wire Wire Line
-	7350 3050 7650 3050
-Wire Wire Line
-	7650 3050 7650 3250
-Connection ~ 7350 3050
-Wire Wire Line
-	7650 3550 7650 3750
-Wire Wire Line
-	7650 3750 7350 3750
-Connection ~ 7350 3750
-Connection ~ 7350 2750
-Wire Wire Line
-	8300 3950 8300 3050
-Connection ~ 7350 3950
 $Comp
 L CP1 Ce2
 U 1 1 5B245A14
@@ -285,23 +212,6 @@ F 3 "" H 9250 3400 50  0001 C CNN
 	1    9250 3400
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	8600 2750 10200 2750
-Wire Wire Line
-	8900 2750 8900 3250
-Wire Wire Line
-	8900 3050 9250 3050
-Wire Wire Line
-	9250 3050 9250 3250
-Connection ~ 8900 3050
-Wire Wire Line
-	8900 3950 8900 3550
-Connection ~ 8300 3950
-Wire Wire Line
-	8900 3750 9250 3750
-Wire Wire Line
-	9250 3750 9250 3550
-Connection ~ 8900 3750
 $Comp
 L R R2
 U 1 1 5B2460B0
@@ -324,14 +234,6 @@ F 3 "" H 9700 3500 50  0001 C CNN
 	1    9700 3500
 	0    -1   -1   0   
 $EndComp
-Wire Wire Line
-	9700 2750 9700 2900
-Connection ~ 8900 2750
-Wire Wire Line
-	9700 3200 9700 3350
-Wire Wire Line
-	9700 3950 9700 3650
-Connection ~ 8900 3950
 $Comp
 L Conn_01x02 J1
 U 1 1 5B246C1A
@@ -343,6 +245,98 @@ F 3 "" H 10400 3300 50  0001 C CNN
 	1    10400 3300
 	1    0    0    -1  
 $EndComp
+Wire Wire Line
+	1250 3600 1250 3750
+Wire Wire Line
+	1250 4050 1250 4200
+Wire Wire Line
+	1250 4200 2250 4200
+Wire Wire Line
+	2250 4200 2250 3600
+Wire Wire Line
+	1250 2900 2250 2900
+Wire Wire Line
+	2250 2900 2250 3150
+Wire Wire Line
+	4000 3650 4000 3550
+Wire Wire Line
+	3400 3500 3450 3500
+Wire Wire Line
+	3450 3500 3450 3350
+Wire Wire Line
+	3450 3350 4000 3350
+Wire Wire Line
+	3400 3250 3850 3250
+Wire Wire Line
+	3400 3100 3450 3100
+Wire Wire Line
+	3450 3100 3450 3150
+Wire Wire Line
+	3450 3150 4000 3150
+Wire Wire Line
+	4800 3150 4800 2750
+Wire Wire Line
+	4800 2750 5950 2750
+Wire Wire Line
+	4800 3550 4800 3950
+Wire Wire Line
+	4800 3950 5950 3950
+Wire Wire Line
+	1850 3650 1850 4200
+Wire Wire Line
+	5850 3150 6300 3150
+Connection ~ 5850 3950
+Wire Wire Line
+	6250 3950 10200 3950
+Wire Wire Line
+	6250 2750 8000 2750
+Wire Wire Line
+	6600 3150 7350 3150
+Wire Wire Line
+	6600 3600 7350 3600
+Wire Wire Line
+	7350 2750 7350 3250
+Wire Wire Line
+	7350 3950 7350 3550
+Wire Wire Line
+	7350 3050 7650 3050
+Wire Wire Line
+	7650 3050 7650 3250
+Connection ~ 7350 3050
+Wire Wire Line
+	7650 3550 7650 3750
+Wire Wire Line
+	7650 3750 7350 3750
+Connection ~ 7350 3750
+Connection ~ 7350 2750
+Wire Wire Line
+	8300 3950 8300 3050
+Connection ~ 7350 3950
+Wire Wire Line
+	8600 2750 10200 2750
+Wire Wire Line
+	8900 2750 8900 3250
+Wire Wire Line
+	8900 3050 9250 3050
+Wire Wire Line
+	9250 3050 9250 3250
+Connection ~ 8900 3050
+Wire Wire Line
+	8900 3950 8900 3550
+Connection ~ 8300 3950
+Wire Wire Line
+	8900 3750 9250 3750
+Wire Wire Line
+	9250 3750 9250 3550
+Connection ~ 8900 3750
+Wire Wire Line
+	9700 2750 9700 2900
+Connection ~ 8900 2750
+Wire Wire Line
+	9700 3200 9700 3350
+Wire Wire Line
+	9700 3950 9700 3650
+Connection ~ 8900 3950
 Wire Wire Line
 	10200 2750 10200 3300
 Connection ~ 9700 2750
@@ -364,4 +358,10 @@ Wire Wire Line
 Wire Wire Line
 	5900 3600 5900 2750
 Connection ~ 5900 2750
+Wire Wire Line
+	1850 3350 1850 3300
+Wire Wire Line
+	1850 3000 1850 2900
+Connection ~ 1850 2900
+Connection ~ 1850 4200
 $EndSCHEMATC
